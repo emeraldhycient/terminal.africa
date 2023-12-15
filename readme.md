@@ -6,7 +6,7 @@ This is an SDK (Software Development Kit) for interacting with the Terminal Afri
 
 You can install the TShipAPI SDK using npm or yarn:
 
-`npm install terminal_africa_nodesdk
+npm install terminal_africa_nodesdk
 # or
 yarn add terminal_africa_nodesdk` 
 
