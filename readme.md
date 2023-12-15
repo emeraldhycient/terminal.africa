@@ -6,15 +6,15 @@ This is an SDK (Software Development Kit) for interacting with the Terminal Afri
 
 You can install the TShipAPI SDK using npm or yarn:
 
-`npm install tship-api
+`npm install terminal_africa_nodesdk
 # or
-yarn add tship-api` 
+yarn add terminal_africa_nodesdk` 
 
 ## Usage
 
 Here's how you can use the TShipAPI SDK in your Node.js application:
 
-    const TShipAPI = require('tship-api');
+    const TShipAPI = require('terminal_africa_nodesdk');
     
     // Initialize the SDK with your API secret key
     const api = new TShipAPI('YOUR_SECRET_KEY');
