@@ -14,10 +14,7 @@ yarn add terminal_africa_nodesdk`
 
 Here's how you can use the TShipAPI SDK in your Node.js application:
 
-    const TShipAPI = require('terminal_africa_nodesdk');
-
-    import TShipAPI from "terminal_africa_nodesdk"
-
+import { TShipAPI } from "terminal_africa_nodesdk"
     
     // Initialize the SDK with your API secret key
     const api = new TShipAPI('YOUR_SECRET_KEY');
