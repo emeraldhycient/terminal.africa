@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
 
-class TShipAPI {
+export class TShipAPI {
     private axiosInstance: AxiosInstance;
 
     constructor(private secretKey: string) {
@@ -317,4 +317,4 @@ class TShipAPI {
 
 }
 
-export default TShipAPI;
+ 

@@ -1,8 +1,8 @@
 {
   "name": "terminal_africa_nodesdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The Terminal Shipping API (TShip) provides a single interface for integrating shipping carriers such as Aramex, DHL Express, Fedex using terminal africa",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
@@ -29,9 +29,11 @@
   },
   "homepage": "https://github.com/emeraldhycient/terminal.africa#readme",
   "devDependencies": {
+    "@types/node": "^20.10.4",
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
     "axios": "^1.6.2"
   }
 }
